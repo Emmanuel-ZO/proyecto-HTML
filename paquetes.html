@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>360 Party VIP</title>
+    <link rel="icon" href="360_Party_VIP.png">
+    <!--<link rel="icon" type="image/jpg" href="/favicon.jpg"/>-->
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #121111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            font-size: 28px;
+            background-color: #333;
+            color: #FFF;
+            padding: 30px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>360 Party VIP</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a class="active" href="paquetes.html">Paquetes</a></li>
+                <li><a href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2 style="margin: 15px;">Paquetes de renta</h2>
+    <hr>
+    <div class="container">
+        <table>
+            <colgroup>
+            <col style="background-color: rgb(207, 207, 207)">
+            <col>
+            <col>
+            <col>
+            </colgroup>
+            <th></th>
+            <th>Una hora</th>
+            <th>Dos Horas</th>
+
+            <tr>
+                <td>Plataforma con video diferido</td>
+                <td align="center">4000</td>
+                <td align="center">5000</td>
+            </tr>
+            <tr>
+                <td>Plataforma con share station</td>
+                <td align="center">4000</td>
+                <td align="center">5000</td>
+            </tr>
+            <tr>
+                <td align="center">Extras</td>
+                <td align="center">-</td>
+                <td align="center">-</td>
+            </tr>
+            <tr>
+                <td>Fondo personalizado</td>
+                <td colspan="2" align="center">800</td>
+            </tr>
+            <tr>
+                <td>Maquina de Humo</td>
+                <td colspan="2" align="center">300</td>
+            </tr>
+        </table>
+    </div>
+    
+
+   
+    <footer class="footer">Derechos reservados &copy; 2023</footer>
+</body>
+</html>
